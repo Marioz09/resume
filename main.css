@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-color: #f5f3f3b7;
+    height: 100vh;
+    padding-top: 0;
+}
+
+#btn {
+    margin-top: 2em;
+    background-color: white;
+    border: 2.5px solid;
+    border-radius: .5em; 
+    padding: 1em;
+}
+
+#name {
+    display: none;
+}
+
+.main {
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+.intro {
+    text-align: center; 
+}
+
+.intro p{
+    line-height: 1rem
+}
+
+.career {
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 5em;
+    
+}
+
+.objectives h2 {
+    border-bottom: solid 3px;
+}
+
+.school h2 {
+    border-bottom: solid 3px;
+}
+
+
+.abia {
+    display: flex;
+    justify-content: space-between;
+}
+
+.abia h3 {
+    margin-top: 0;
+    line-height: 0;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills h2 {
+    border-bottom: solid 3px;
+}
+
+.skills img {
+    margin-bottom: 5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
