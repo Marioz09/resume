@@ -17,10 +17,6 @@ body {
   padding: 1em;
 }
 
-#name {
-  display: none;
-}
-
 .main {
   width: 90%;
   margin: auto;
