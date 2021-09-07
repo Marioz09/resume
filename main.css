@@ -1,94 +1,82 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .main {
-    background-color: #f5f3f3b7;
-    height: 100vh;
-    padding-top: 0;
+  background-color: #f5f3f3b7;
+  height: 100vh;
+  padding-top: 0;
 }
 
 #btn {
-    margin-top: 2em;
-    background-color: white;
-    border: 2.5px solid;
-    border-radius: .5em; 
-    padding: 1em;
-}
-
-#name {
-    display: none;
+  margin-top: 2em;
+  background-color: white;
+  border: 2.5px solid;
+  border-radius: 0.5em;
+  padding: 1em;
 }
 
 .main {
-    margin-left: 10em;
-    margin-right: 10em;
+  width: 90%;
+  margin: auto;
 }
 
 .intro {
-    text-align: center; 
+  text-align: center;
 }
 
-.intro p{
-    line-height: 1rem
+.intro p {
+  line-height: 1rem;
 }
 
 .career {
-    margin-left: 5em;
-    margin-right: 5em;
-    margin-top: 5em;
-    
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .objectives h2 {
-    border-bottom: solid 3px;
+  border-bottom: solid 3px;
 }
 
 .school h2 {
-    border-bottom: solid 3px;
+  border-bottom: solid 3px;
 }
 
-
 .abia {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .abia h3 {
-    margin-top: 0;
-    line-height: 0;
+  margin-top: 0;
+  line-height: 0;
 }
 
 .skills {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .skills h2 {
-    border-bottom: solid 3px;
+  border-bottom: solid 3px;
 }
 
 .skills img {
-    margin-bottom: 5em;
+  margin-bottom: 5em;
 }
 
+@media (max-width: 600px) {
+  .skills {
+    flex-direction: column;
+    justify-content: center;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .skills img {
+    margin: auto;
+    height: 80px;
+  }
+}
